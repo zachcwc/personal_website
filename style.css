@@ -1,0 +1,36 @@
+body {
+	background-color: white;
+	margin: 0;
+	padding: 0;
+}
+
+div.nav_bar {
+	/* dark grey, goes on left side*/
+	background-color:rgba(155,155,155,0.9);
+	/* iffy on using float, but abs would kill diff viewport sizes */
+	float: left;
+	height: 100vh;
+	width: 10vw;
+}
+
+div.title_bar {
+	/* light grey */
+	background-color:rgba(122,122,122,0.8);
+	height: 15vh;
+	width: 100vw;
+}
+
+div.title_text_box {
+	position: relative;
+	color: white;
+	font-size: 4vw;
+	height: 100%;
+	width: 100%;
+	left: 5%;
+	top: 25%;
+}
+
+span.text_valign {
+	display: inline-block;
+	vertical-align: middle;
+}
